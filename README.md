@@ -19,6 +19,9 @@ const _ak2017_1={
 };
 ```
 
+https://roa.nz/roagrid/aerial-ak2017/1/3432/11556.jpg
+
 ![https://roa.nz/roagrid/aerial-ak2017/1/3432/11556.jpg](https://roa.nz/roagrid/aerial-ak2017/1/3432/11556.jpg)
 
+https://roa.nz/roagrid/lidar-ak2013/1/3432/11556.dif.png
 ![https://roa.nz/roagrid/lidar-ak2013/1/3432/11556.dif.png](https://roa.nz/roagrid/lidar-ak2013/1/3432/11556.dif.png)

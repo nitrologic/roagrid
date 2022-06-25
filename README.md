@@ -1,6 +1,12 @@
 # roagrid
 New Zealand topography tile service
 
+## License
+
+Image data courtesy Land Information New Zealand
+
+Creative Commons Attribution 4.0 International Public License
+
 ## Available Layers
 
 ### Auckland Layer 1 Tiles

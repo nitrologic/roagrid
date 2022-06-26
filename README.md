@@ -23,17 +23,6 @@ const _ak2017_1={
 	y:11557,
 	left:3370,bottom:11467,right:3525,top:11572
 };
-```
-
-https://roa.nz/roagrid/aerial-ak2017/1/3432/11556.jpg
-
-![https://roa.nz/roagrid/aerial-ak2017/1/3432/11556.jpg](https://roa.nz/roagrid/aerial-ak2017/1/3432/11556.jpg)
-
-https://roa.nz/roagrid/lidar-ak2013/1/3432/11556.dif.png
-![https://roa.nz/roagrid/lidar-ak2013/1/3432/11556.dif.png](https://roa.nz/roagrid/lidar-ak2013/1/3432/11556.dif.png)
-
-
-## NZ Satellite Layers
 
 const _nz2={
 	level:2,
@@ -74,3 +63,14 @@ const _nz5={
 	y:1.8,
 	left:0,bottom:2,right:0,top:2
 };
+```
+
+## Examples
+
+https://roa.nz/roagrid/aerial-ak2017/1/3432/11556.jpg
+
+![https://roa.nz/roagrid/aerial-ak2017/1/3432/11556.jpg](https://roa.nz/roagrid/aerial-ak2017/1/3432/11556.jpg)
+
+https://roa.nz/roagrid/lidar-ak2013/1/3432/11556.dif.png
+![https://roa.nz/roagrid/lidar-ak2013/1/3432/11556.dif.png](https://roa.nz/roagrid/lidar-ak2013/1/3432/11556.dif.png)
+

@@ -5,13 +5,17 @@ New Zealand topography tile service
 
 Image data courtesy Land Information New Zealand
 
-Creative Commons Attribution 4.0 International Public License
+https://data.linz.govt.nz/
+
+LICENSE: Creative Commons Attribution 4.0 International
+
+https://data.linz.govt.nz/license/attribution-4-0-international/
 
 ## Available Layers
 
-### Auckland Layer 1 Tiles
-
 Based on NZTM mapping
+
+### layers.json
 
 ```
 const _ak2017_1={

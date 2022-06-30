@@ -1,7 +1,7 @@
 # roagrid
 New Zealand topography tile service
 
-## License
+## Contributors
 
 Image data courtesy Land Information New Zealand
 

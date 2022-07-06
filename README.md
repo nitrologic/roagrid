@@ -11,6 +11,12 @@ LICENSE: Creative Commons Attribution 4.0 International
 
 https://data.linz.govt.nz/license/attribution-4-0-international/
 
+## Encoding
+
+Aerial data is jpeg 2K with compression value of 85
+
+PNG data is 32 bit ARGB where top 3 bits of A are reserved, remaining A and R channels are Height (13 bits), and G B channels are Altitude (16 bit) where unites are 16 per meter.
+
 ## Available Layers
 
 Based on NZTM mapping

@@ -31,7 +31,7 @@ https://data.linz.govt.nz/license/attribution-4-0-international/
 
 Aerial data is compressed 2K resolution with JPEG compression value of 85.
 
-Topo data is uncompressed raw integer array.
+Topo data is uncompressed raw integer array 1052676 bytes.
 
 ## Available Layers
 
@@ -39,7 +39,14 @@ Coming soon...
 
 ## Examples
 
+
 https://roa.nz/aerialgrid/aerial-auckland2017/1/3432/11556.jpg
 
 ![https://roa.nz/aerialgrid/aerial-auckland2017/1/3432/11556.jpg](https://roa.nz/aerialgrid/aerial-auckland2017/1/3432/11556.jpg)
 
+
+https://roa.nz/roagrid/roa/1/3432/11556.json
+
+https://roa.nz/roagrid/roof/1/3432/11556.json
+
+https://roa.nz/topogrid/topo-auckland-north/1/3432/11556.raw

@@ -7,13 +7,15 @@ North is +y
 
 East is +x
 
-Endpoints
+## Endpoints
 
 Server provides data, topo, and aerial tiles where indicated in mask
 
-https://roa.nz/roagrid/%name%/%layer%/%col%/%row%.json
-https://roa.nz/topogrid/topo-%name%/%layer%/%col%/%row%.raw
-https://roa.nz/aerialgrid/%name%/%layer%/%col%/%row%.jpg
+  https://roa.nz/roagrid/%name%/%layer%/%col%/%row%.json
+
+  https://roa.nz/topogrid/topo-%name%/%layer%/%col%/%row%.raw
+
+  https://roa.nz/aerialgrid/%name%/%layer%/%col%/%row%.jpg
 
 ## Contributors
 

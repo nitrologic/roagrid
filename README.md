@@ -45,7 +45,6 @@ https://roa.nz/aerialgrid/aerial-auckland2017/1/3432/11556.jpg
 ![https://roa.nz/aerialgrid/aerial-auckland2017/1/3432/11556.jpg](https://roa.nz/aerialgrid/aerial-auckland2017/1/3432/11556.jpg)
 
 
-https://roa.nz/roagrid/roa/1/3432/11556.json
 
 https://roa.nz/roagrid/roof/1/3432/11556.json
 

@@ -11,9 +11,7 @@ Bounds are inclusive and in [W E S N] order until further notice.
 
 Masks use Chr(88) X character to indicate availability in bounds and are listed North to South. 
 
-Topo data use integer heightmaps where height is 16 units per meter for all levels.
-
-Topo
+Topo data features integer heightmaps where height is 16 units per meter for all levels.
 
 ## Endpoints
 

@@ -23,7 +23,7 @@ Project Roa server provides data, topo, and aerial tiles where indicated in mast
 
   https://roa.nz/aerialgrid/%name%/%layer%/%col%/%row%.jpg
 
-A second faster AWS instance at http://mojolabs.nz is serving same dataset sans encyption. (NEW)
+A second faster AWS instance at http://mojolabs.nz is serving same dataset minus encryption. (NEW)
 
 ## Contributors
 

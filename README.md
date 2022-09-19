@@ -35,11 +35,24 @@ LICENSE: Creative Commons Attribution 4.0 International
 
 https://data.linz.govt.nz/license/attribution-4-0-international/
 
+## Resolution
+
+The metric real world dimension of tiles at each level are
+
+Level | Metric Size
+------| ---------
+0 | 64 meters²
+1 | 512 meters²
+2 | 4096 meters²
+3 | 32768 meters²
+4 | 262144 meters²
+5 | 2097152 meters²
+
 ## Encoding
 
 Aerial data is compressed 2K resolution with JPEG compression value of 85.
 
-Topo data is uncompressed raw integer array 1052676 bytes.
+Topo data is uncompressed raw integer array 1052676 bytes. Binary encoding is 2 x 16 bit unsigned 
 
 Json outline encoding is based on a 2K resolution target canvas.
 

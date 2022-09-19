@@ -77,7 +77,6 @@ const TopoLevel=0x4000;
 				if(d==0x7fff) d=0;
 				if(d) {
 					d=d-0x1000;
-					if(d<20) d=0;
 				}
 				diff[i]=d;
 				i++;

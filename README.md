@@ -23,21 +23,9 @@ Project Roa server provides data, topo, and aerial tiles where indicated in mast
 
   https://roa.nz/aerialgrid/%name%/%layer%/%col%/%row%.jpg
 
-A second faster AWS instance at http://mojolabs.nz is serving same dataset minus encryption. (NEW)
-
-## Contributors
-
-Image data courtesy Land Information New Zealand
-
-https://data.linz.govt.nz/
-
-LICENSE: Creative Commons Attribution 4.0 International
-
-https://data.linz.govt.nz/license/attribution-4-0-international/
-
 ## Resolution
 
-The metric real world dimension of tiles at each level are
+Metric real world dimension of tiles at each level are
 
 Level | Metric Size
 ------| ---------
@@ -52,7 +40,7 @@ Level | Metric Size
 
 Aerial data is compressed 2K resolution with JPEG compression value of 85.
 
-Topo data is uncompressed raw integer array 1052676 bytes. Binary encoding is 2 x 16 bit unsigned 
+Topo data is uncompressed raw integer array 1052676 bytes (513 x 513 x (16bit + 16bit)) 
 
 Json outline encoding is based on a 2K resolution target canvas.
 
@@ -66,3 +54,14 @@ https://roa.nz/aerialgrid/aerial-auckland2017/1/3432/11556.jpg
 https://roa.nz/roagrid/roof/1/3432/11556.json
 
 https://roa.nz/topogrid/topo-auckland-north/1/3432/11556.raw
+
+
+## Contributors
+
+Image data courtesy Land Information New Zealand
+
+https://data.linz.govt.nz/
+
+LICENSE: Creative Commons Attribution 4.0 International
+
+https://data.linz.govt.nz/license/attribution-4-0-international/

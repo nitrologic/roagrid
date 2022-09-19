@@ -53,10 +53,10 @@ Resolution of data can be deduced from contentLength:
 Resolution | Content Length
 -----------| --------------
 1 | 4
-129 | * 264196
+129 | 264196
 513 | 1052676 
-1025 | * 4202500
-2049 | * 16793604
+1025 | 4202500
+2049 | 16793604
 
 ## Topo Encoding
 

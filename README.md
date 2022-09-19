@@ -51,8 +51,7 @@ Server response to http GET on topogrid endpoints has hardcoded contentEncoding=
 Resolution of data can be deduced from contentLength:
 
 Resolution | Content Length
-===========================
-
+-----------| --------------
 1 | 4
 129 | * 264196
 513 | 1052676 

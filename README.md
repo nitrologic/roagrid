@@ -44,6 +44,49 @@ Topo data is uncompressed raw integer array 1052676 bytes (513 x 513 x (16bit + 
 
 Json outline encoding is based on a 2K resolution target canvas.
 
+## Topo Delivery
+
+Server response to http GET on topogrid endpoints has hardcoded contentEncoding="gzip".
+
+Resolution of data can be deduced from contentLength:
+
+Resolution | Content Length
+===========================
+
+1 | 4
+129 | * 264196
+513 | 1052676 
+1025 | * 4202500
+2049 | * 16793604
+
+## Topo Encoding
+
+[ Work in progress ] 
+
+```
+const SeaLevel=186*16;
+const TopoLevel=0x4000;
+
+		for(let y=0;y<res;y++){
+			for(let x=0;x<res;x++){
+				let h=(bytes[p+1]<<8)+bytes[p+0];
+				if(h==0) h=SeaLevel;
+				h=(h-SeaLevel);	
+				topo[i]=h-TopoLevel;
+				let d=(bytes[p+3]<<8)+bytes[p+2];
+				d=(d&0x7fff);
+				if(d==0x7fff) d=0;
+				if(d) {
+					d=d-0x1000;
+					if(d<20) d=0;
+				}
+				diff[i]=d;
+				i++;
+				p+=4;
+			}
+		}
+```
+
 ## Examples
 
 https://roa.nz/aerialgrid/aerial-auckland2017/1/3432/11556.jpg

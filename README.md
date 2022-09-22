@@ -19,7 +19,7 @@ Project Roa server provides data, topo, and aerial tiles where indicated in mast
 
   https://roa.nz/roagrid/%name%/%layer%/%col%/%row%.json
 
-  https://roa.nz/topogrid/topo-%name%/%layer%/%col%/%row%.raw
+  https://roa.nz/topogrid/%name%/%layer%/%col%/%row%.raw
 
   https://roa.nz/aerialgrid/%name%/%layer%/%col%/%row%.jpg
 

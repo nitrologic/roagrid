@@ -17,25 +17,25 @@ Topo data features integer heightmaps where height is 16 units per meter for all
 
 Project Roa server provides data, topo, and aerial tiles where indicated in master tiles.json mask.
 
-### Outline tiles
+### Aerial tiles 2048x2048
 
-  https://roa.nz/roagrid/%name%/%layer%/%col%/%row%.json
+  https://roa.nz/aerialgrid/%name%/%layer%/%col%/%row%.jpg
+
+### HD Aerial tiles 4096x4096
+
+  https://roa.nz/hd-aerialgrid/%name%/%layer%/%col%/%row%.jpg
+  
+### SD Aerial tiles 1024x1024  
+
+  https://roa.nz/sd-aerialgrid/%name%/%layer%/%col%/%row%.jpg
 
 ### Heightmap tiles
 
   https://roa.nz/topogrid/%name%/%layer%/%col%/%row%.raw
 
-### Aerial tiles 2048x2048
+### Outline tiles
 
-  https://roa.nz/aerialgrid/%name%/%layer%/%col%/%row%.jpg
-
-#### HD Aerial tiles 4096x4096
-
-  https://roa.nz/hd-aerialgrid/%name%/%layer%/%col%/%row%.jpg
-  
-#### SD Aerial tiles 1024x1024  
-
-  https://roa.nz/sd-aerialgrid/%name%/%layer%/%col%/%row%.jpg
+  https://roa.nz/roagrid/%name%/%layer%/%col%/%row%.json
 
 ## Resolution
 
@@ -52,7 +52,7 @@ Level | Metric Size
 
 ## Encoding
 
-Aerial data is compressed 2K resolution with JPEG compression value of 85.
+Aerial data of 2K, 4K and 1K resolutions with JPEG compression (85%, 92% and 80% respectively).
 
 Topo data is uncompressed raw integer array 1052676 bytes (513 x 513 x (16bit + 16bit)) 
 

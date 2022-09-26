@@ -13,6 +13,19 @@ Masks use Chr(88) X character to indicate availability in bounds and are listed 
 
 Topo data features integer heightmaps where height is 16 units per meter for all levels.
 
+## Tile Size
+
+Metric real world dimension of tiles at each level are
+
+Level | Metric Size
+------| ---------
+0 | 64 meters²
+1 | 512 meters²
+2 | 4096 meters²
+3 | 32768 meters²
+4 | 262144 meters²
+5 | 2097152 meters²
+
 ## Endpoints
 
 Project Roa server provides data, topo, and aerial tiles where indicated in master tiles.json mask.
@@ -36,19 +49,6 @@ Project Roa server provides data, topo, and aerial tiles where indicated in mast
 ### Outline tiles
 
   https://roa.nz/roagrid/%name%/%layer%/%col%/%row%.json
-
-## Resolution
-
-Metric real world dimension of tiles at each level are
-
-Level | Metric Size
-------| ---------
-0 | 64 meters²
-1 | 512 meters²
-2 | 4096 meters²
-3 | 32768 meters²
-4 | 262144 meters²
-5 | 2097152 meters²
 
 ## Encoding
 

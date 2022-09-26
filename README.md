@@ -17,15 +17,15 @@ Topo data features integer heightmaps where height is 16 units per meter for all
 
 Project Roa server provides data, topo, and aerial tiles where indicated in master tiles.json mask.
 
-### Aerial tiles 2048x2048
+### Aerial tiles
 
   https://roa.nz/aerialgrid/%name%/%layer%/%col%/%row%.jpg
 
-### HD Aerial tiles 4096x4096
+### HD Aerial tiles
 
   https://roa.nz/hd-aerialgrid/%name%/%layer%/%col%/%row%.jpg
   
-### SD Aerial tiles 1024x1024  
+### SD Aerial tiles
 
   https://roa.nz/sd-aerialgrid/%name%/%layer%/%col%/%row%.jpg
 

@@ -72,6 +72,52 @@ Resolution | Content Length
 1025 | 4202500
 2049 | 16793604
 
+## Gridding
+
+The grid.json file is included for purposes of converting WGS84 spherical coordinate to NZTM metric.
+
+```
+let AppGrid;
+
+function WGS2NZTM(latlon){
+	const lat=latlon[0];
+	const lon=latlon[1];
+	const grid=AppGrid.wgsNZTM;
+	const y=grid.bounds[2]-lat;
+	const x=lon-grid.bounds[0];
+	const yy=(y/grid.increment)|0;
+	const xx=(x/grid.increment)|0;
+	const row=grid.meters[yy];
+	return [row[xx*2+0],row[xx*2+1]];
+}
+
+function NZTM2WGS(northeast){
+	const n=northeast[0];
+	const e=northeast[1];
+	const grid=AppGrid.nztmWGS;
+	const y=n-grid.bounds[2];
+	const x=e-grid.bounds[0];
+	const yy=(y/grid.increment)|0;
+	const xx=(x/grid.increment)|0;
+	const row=grid.degrees[yy];
+	return [row[xx*2+0],row[xx*2+1]];
+}
+
+function fetchGrid(){
+	const url="json/grid.json";
+	fetch(url).then(response=>response.json()).then(
+		_grid=>{
+			AppGrid=_grid;		
+			const ne=WGS2NZTM([-40,174]);
+			const latlon=NZTM2WGS(ne);
+		},_error=>{
+			console.log("fetchGrid fail epix");
+		}
+	);
+}
+
+```
+
 ## Topo Encoding
 
 [ Work in progress ] 

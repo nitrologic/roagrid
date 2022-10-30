@@ -1,4 +1,4 @@
-!(airport road)[https://raw.githubusercontent.com/nitrologic/roagrid/master/farmsim.png]
+![airport road](farmsim.png)
 
 # roagrid
 This repository is part of Simon's topographic tile service Project Roa

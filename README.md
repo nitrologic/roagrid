@@ -1,7 +1,11 @@
-!(airport road)[/farmsim.png]
+!(airport road)[https://raw.githubusercontent.com/nitrologic/roagrid/master/farmsim.png]
 
 # roagrid
-Simon's topographic tile service Project Roa
+This repository is part of Simon's topographic tile service Project Roa
+
+Image and contour data originate from crown copyright sources paid for by the New Zealand public and released with Community Commons Attribution license.
+
+The documentation below is a work in progress as various applications are added to the platform.
 
 ## Grid
 

@@ -157,8 +157,8 @@ https://roa.nz/aerialgrid/aerial-auckland2017/1/3432/11556.jpg
 
 ![https://roa.nz/aerialgrid/aerial-auckland2017/1/3432/11556.jpg](https://roa.nz/aerialgrid/aerial-auckland2017/1/3432/11556.jpg)
 
-
-https://roa.nz/roagrid/roof/1/3432/11556.json
+* [Roof Outlines](https://roa.nz/roagrid/roof/1/3432/11556.json)
+* [Road Outlines](https://roa.nz/roagrid/road/1/3432/11556.json)
 
 https://roa.nz/topogrid/topo-auckland-north/1/3432/11556.raw
 

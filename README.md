@@ -1,5 +1,5 @@
 # roagrid
-Simon's topography tile service
+Simon's topographic tile service Project Roa
 
 ## Grid
 

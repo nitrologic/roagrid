@@ -160,7 +160,7 @@ https://roa.nz/aerialgrid/aerial-auckland2017/1/3432/11556.jpg
 * [Roof Outlines](https://roa.nz/roagrid/roof/1/3432/11556.json)
 * [Road Outlines](https://roa.nz/roagrid/transit/1/3432/11556.json)
 * [Power Outlines](https://roa.nz/roagrid/power/1/3432/11332.json)
-* [Coast Outlines](https://roa.nz/roagrid/road/1/3432/11546.json)
+* [Coast Outlines](https://roa.nz/roagrid/coast/1/3432/11546.json)
 
 https://roa.nz/topogrid/topo-auckland-north/1/3432/11556.raw
 

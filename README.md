@@ -13,9 +13,11 @@ North is +y
 
 East is +x
 
+Coordinates are in [NZTM](https://www.linz.govt.nz/guidance/geodetic-system/coordinate-systems-used-new-zealand/projections/new-zealand-transverse-mercator-2000-nztm2000) projection.
+
 Bounds are inclusive and in [W E S N] order until further notice.
 
-Masks use Chr(88) X character to indicate availability in bounds and are listed North to South. 
+Masks use base64 encoding of north is top bitmap where bit indicates availability of tile data inside bounds.
 
 Topo data features integer heightmaps where height is 16 units per meter for all levels.
 

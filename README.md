@@ -1,11 +1,16 @@
 ![airport road](farmsim.png)
 
-# roagrid
+# roagrid - Toitū Te Whenua
+
 This repository is part of Simon's topographic tile service Project Roa
 
 Image and contour data originate from crown copyright sources paid for by the New Zealand public and released with Community Commons Attribution license.
 
 The documentation below is a work in progress as various applications are added to the platform.
+
+# random tile 
+
+![beach life](aerial-auckland2022-0-26626-93159.png)
 
 ## Grid
 
@@ -130,13 +135,6 @@ const TopoLevel=0x4000;
 			}
 		}
 ```
-
-## Examples
-
-https://skid.nz/aerialgrid/aerial-auckland2017/1/3432/11556.jpg
-
-![https://skid.nz/aerialgrid/aerial-auckland2017/1/3432/11556.jpg](https://skid.nz/aerialgrid/aerial-auckland2017/1/3432/11556.jpg)
-
 
 ## Contributors
 

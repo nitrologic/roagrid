@@ -34,29 +34,7 @@ Level | Metric Size
 4 | 262144 meters²
 5 | 2097152 meters²
 
-## Endpoints
-
-Project Roa server provides data, topo, and aerial tiles where indicated in master tiles.json mask.
-
-### Aerial tiles
-
-  https://roa.nz/aerialgrid/%name%/%layer%/%col%/%row%.jpg
-
-### HD Aerial tiles
-
-  https://roa.nz/hd-aerialgrid/%name%/%layer%/%col%/%row%.jpg
-  
-### SD Aerial tiles
-
-  https://roa.nz/sd-aerialgrid/%name%/%layer%/%col%/%row%.jpg
-
-### Heightmap tiles
-
-  https://roa.nz/topogrid/%name%/%layer%/%col%/%row%.raw
-
-### Outline tiles
-
-  https://roa.nz/roagrid/%name%/%layer%/%col%/%row%.json
+2024 endpoints coming soon.
 
 ## Encoding
 

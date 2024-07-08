@@ -32,9 +32,9 @@ parcels
 
 # roagrid - Toitū Te Whenua
 
-This repository is part of Simon's topographic tile service Project Roa
+This repository is part of Simon's topographic tile services.
 
-Image and contour data originate from crown copyright sources paid for by the New Zealand public and released with Community Commons Attribution license.
+Image and contour data originate from Crown Copyright sources paid for by the New Zealand public and released with Community Commons Attribution license.
 
 The documentation below is a work in progress as various applications are added to the platform.
 
@@ -136,33 +136,6 @@ function fetchGrid(){
 	);
 }
 
-```
-
-## Topo Encoding
-
-[ Work in progress ] 
-
-```
-const SeaLevel=186*16;
-const TopoLevel=0x4000;
-
-		for(let y=0;y<res;y++){
-			for(let x=0;x<res;x++){
-				let h=(bytes[p+1]<<8)+bytes[p+0];
-				if(h==0) h=SeaLevel;
-				h=(h-SeaLevel);	
-				topo[i]=h-TopoLevel;
-				let d=(bytes[p+3]<<8)+bytes[p+2];
-				d=(d&0x7fff);
-				if(d==0x7fff) d=0;
-				if(d) {
-					d=d-0x1000;
-				}
-				diff[i]=d;
-				i++;
-				p+=4;
-			}
-		}
 ```
 
 ## Contributors

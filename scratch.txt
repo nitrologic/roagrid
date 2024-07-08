@@ -1,1 +1,30 @@
+
 ![beach life](aerial-auckland2022-0-26626-93159.png)
+
+
+## Topo Encoding
+
+[ Work in progress ] 
+
+```
+const SeaLevel=186*16;
+const TopoLevel=0x4000;
+
+		for(let y=0;y<res;y++){
+			for(let x=0;x<res;x++){
+				let h=(bytes[p+1]<<8)+bytes[p+0];
+				if(h==0) h=SeaLevel;
+				h=(h-SeaLevel);	
+				topo[i]=h-TopoLevel;
+				let d=(bytes[p+3]<<8)+bytes[p+2];
+				d=(d&0x7fff);
+				if(d==0x7fff) d=0;
+				if(d) {
+					d=d-0x1000;
+				}
+				diff[i]=d;
+				i++;
+				p+=4;
+			}
+		}
+```

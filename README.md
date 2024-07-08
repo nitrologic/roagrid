@@ -40,7 +40,8 @@ The documentation below is a work in progress as various applications are added 
 
 # random tile 
 
-![beach life](aerial-auckland2022-0-26626-93159.png)
+![coast](
+sentinel2-nz2022-3-63-177.jpg)
 
 ## Grid
 

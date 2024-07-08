@@ -1,12 +1,10 @@
-2024 endpoints coming soon.
-
-![airport road](farmsim.png)
-
 # latest
 
 Hurrah! 
 
 After hiatus nitrologic pipeline 1.95 is baking again.
+
+Stay tuned, 2024 endpoints coming soon.
 
 ## July 2024 Tile Audit 
 

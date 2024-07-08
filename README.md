@@ -1,3 +1,5 @@
+2024 endpoints coming soon.
+
 ![airport road](farmsim.png)
 
 # latest
@@ -66,8 +68,6 @@ Level | Metric Size
 3 | 32768 meters²
 4 | 262144 meters²
 5 | 2097152 meters²
-
-2024 endpoints coming soon.
 
 ## Encoding
 

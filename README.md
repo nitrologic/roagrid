@@ -1,5 +1,33 @@
 ![airport road](farmsim.png)
 
+# latest
+
+Hurrah! 
+
+After hiatus nitrologic pipeline 1.95 is baking again.
+
+## July 2024 Tile Audit 
+
+roa: 4,606,799 (shape)
+
+lidar: 163,454 (height)
+
+aerial: 1,928,826 (image)
+
+## Current Shape Layers (11)
+
+coast 
+rivers 
+waters 
+land 
+transit 
+buildings 
+ramm 
+power 
+marine 
+leisure 
+parcels
+
 # roagrid - Toitū Te Whenua
 
 This repository is part of Simon's topographic tile service Project Roa

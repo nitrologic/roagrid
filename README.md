@@ -1,10 +1,15 @@
-# latest
+# roagrid - Toitū Te Whenua
 
-Hurrah! 
+This repository is part of Simon's topographic tile services.
 
-After hiatus nitrologic pipeline 1.95 is baking again.
+Image and contour data originate from Crown Copyright sources paid for by the New Zealand public and released with Community Commons Attribution license.
 
-Stay tuned, 2024 endpoints coming soon.
+The documentation below is a work in progress as various applications are added to the platform.
+
+# random tile 
+
+![coast](
+sentinel2-nz2022-3-63-177.jpg)
 
 ## July 2024 Tile Audit 
 

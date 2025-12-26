@@ -6,7 +6,13 @@ Image and contour data originate from Crown Copyright sources paid for by the Ne
 
 The documentation below is a work in progress as various applications are added to the platform.
 
-# random tile 
+# random tiles
+
+Reading the wind.
+
+![nz harbour 1](brisk.jpg)
+
+Whenua.
 
 ![coast](
 sentinel2-nz2022-3-63-177.jpg)
@@ -40,17 +46,6 @@ This repository is part of Simon's topographic tile services.
 Image and contour data originate from Crown Copyright sources paid for by the New Zealand public and released with Community Commons Attribution license.
 
 The documentation below is a work in progress as various applications are added to the platform.
-
-# random tiles
-
-Reading the wind.
-
-![nz harbour 1](brisk.jpg)
-
-Whenua.
-
-![coast](
-sentinel2-nz2022-3-63-177.jpg)
 
 ## Grid
 

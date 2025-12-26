@@ -36,7 +36,13 @@ Image and contour data originate from Crown Copyright sources paid for by the Ne
 
 The documentation below is a work in progress as various applications are added to the platform.
 
-# random tile 
+# random tiles
+
+Reading the wind.
+
+![nz harbour 1](brisk.jpg)
+
+Whenua.
 
 ![coast](
 sentinel2-nz2022-3-63-177.jpg)
